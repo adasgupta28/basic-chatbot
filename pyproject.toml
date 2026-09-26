@@ -1,11 +1,11 @@
 [project]
 name = "basic-chatbot"
 version = "0.1.0"
-description = "Add your description here"
+description = "A beginner-friendly AI chatbot with a Streamlit web UI, powered by the OpenAI API"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "dotenv>=0.9.9",
     "openai>=2.51.0",
+    "python-dotenv>=1.2.3",
     "streamlit>=1.60.0",
 ]
